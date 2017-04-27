@@ -17,15 +17,20 @@ var About = (props) => {
       <p>Here are some of tools and libraries I used:</p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react">React</a>
+          <a href="https://facebook.github.io/react">ReactJS</a>
         </li>
         <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> - Provided API used in app.
+          <a href="http://openweathermap.org">Open Weather Map</a> - Provided weather API used in app.
           </li>
         <li>
           <a href="https://foundation.zurb.com">Foundation 6</a> - Provided simple styling (CSS).
           </li>
         </ul>
+        <br/>
+        <br/>
+        <footer>
+          <h4>Created by Maksymilian Prylinski</h4>
+        </footer>
   </div>
   );
 };
